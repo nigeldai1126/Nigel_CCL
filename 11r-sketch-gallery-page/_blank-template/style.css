@@ -1,0 +1,46 @@
+html ,body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0)
+}
+
+
+
+
+canvas {
+  display: flex;
+  border-style: groove ;
+  border: width 2px;
+}
+#canvasContainer{
+  position: inherit;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: red;
+  /* font-family: 'Arial'; */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 1000;
+  background-size: cover;
+  /* text-shadow: 0 0 5px #FF0000, 0 0 5px #fc07a2;  */
+  /* border: medium solid rgba(245, 238, 238, 0.906); */
+
+  background-color: rgb(32, 32, 65);
+  letter-spacing:5px;
+  text-indent: 6px;
+}
+
+p{
+  font-family: Impact,  sans-serif;
+  text-overflow: ellipsis;
+  color:rgb(250, 144, 6);
+  font-weight: 10;
+  background-color: rgba(240, 248, 255, 0.025);
+  font-size:xx-large;
+  display: flex;
+  justify-content: center;
+ 
+}
