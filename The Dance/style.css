@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
+  .mySliders{
+    width: 180px;
+    background-color: transparent;
+    
+    /* Removes some defaults */
+  
+  }
+  
+  
+  /* These styles affect what happens when the cursor is focused on the slider (i.e. clicking it) */
+  .mySliders:focus {
+    
+    /* Stops the default outline showing up */
+    outline: none;
+  }
+  
+  /* This is the "track" that the slider sits on  */
+  .mySliders::-webkit-slider-runnable-track {
+ 
+    width: 90%;
+    height: 5px;
+    background: #FFFFFF;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    /* Turns the cursor into the hand pointer icon when hovering over the slider  */
+    cursor: pointer;
+    
+  }
+  
+  /* This is the moveable bit of the slider, known as the "thumb"*/
+  .mySliders::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    background: #FC064F;
+    cursor: pointer;
+
+    
+    /* negative top padding moves it up */
+    margin-top: -6px;
+  
+    
+    /* Border radius gives rounded corners, if they're big enough, you end up with circles */
+    border-radius: 8px;
+    
+  }
+  
+  .button {
+    background-color: #FC064F; /* Green */
+    border: none;
+    color: white;
+    padding: 1px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FC064F;
+  }
+  .button:hover {
+    background-color: #FC064F;
+    color: white;
+  }
