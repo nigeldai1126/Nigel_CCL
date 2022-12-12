@@ -16,7 +16,7 @@ function setup() {
   angleVel = 0.01; 
   radDist = 150; 
   dia = 30;
-  button = createButton('Save My The Dance');
+  button = createButton('Save My Dance');
   button.mousePressed(saveImage);
   button.position(20,100)
   button.addClass("button")
